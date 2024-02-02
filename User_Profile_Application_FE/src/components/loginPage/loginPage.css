@@ -1,0 +1,18 @@
+.parent{
+    /* width: 100vh; */
+    height: 100vh;
+    background:linear-gradient(140deg, #2dfff4, #e90090);
+}
+
+.child{
+    width: 300px;
+    /* height: 300px; */
+    background-color:  transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+   
+  border: 1px solid black;
+  border-radius: 15px;
+}
